@@ -3,13 +3,13 @@ import { getFirestore, collection } from "firebase/firestore";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
-  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
+  apiKey: "AIzaSyCXxWR1BBaIQ97DLUHi4WKGjeW6g2JaQ_o",
+  authDomain: "note-wind-by-haroon.firebaseapp.com",
+  projectId: "note-wind-by-haroon",
+  storageBucket: "note-wind-by-haroon.firebasestorage.app",
+  messagingSenderId: "726724008628",
+  appId: "1:726724008628:web:18c812c8a90b50c3e855e1",
+  measurementId: "G-576W4C6VMP"
 };
 
 // Initialize Firebase
